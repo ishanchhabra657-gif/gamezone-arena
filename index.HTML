@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameZone Arena | Ultimate Gaming Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <a href="#" class="logo">GAME<span>ZONE</span></a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#games">Games</a>
+            <a href="#trending">Trending</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#games" class="nav-btn">Explore Games</a>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="tag">WELCOME TO THE GAMING WORLD</p>
+            <h1>LEVEL UP YOUR<br><span>GAMING EXPERIENCE</span></h1>
+            <p class="hero-description">
+                Discover exciting games, explore new worlds,
+                and find your next gaming adventure.
+            </p>
+            <a href="#games" class="main-btn">Explore Games →</a>
+        </div>
+    </section>
+
+    <!-- Statistics -->
+    <section class="stats">
+        <div><h2>100+</h2><p>Games to Explore</p></div>
+        <div><h2>50K+</h2><p>Gaming Fans</p></div>
+        <div><h2>24/7</h2><p>Gaming Updates</p></div>
+        <div><h2>FREE</h2><p>To Explore</p></div>
+    </section>
+
+    <!-- Featured Games -->
+    <section class="section" id="games">
+        <div class="section-heading">
+            <div>
+                <p class="tag">YOUR NEXT ADVENTURE</p>
+                <h2>Featured <span>Games</span></h2>
+            </div>
+            <input type="search" id="gameSearch"
+                   placeholder="Search games...">
+        </div>
+
+        <div class="game-grid" id="gameGrid">
+
+            <article class="game-card">
+                <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=900&q=85"
+                     alt="Gaming setup">
+                <div class="game-info">
+                    <span class="category">ACTION</span>
+                    <h3>Cyber Warriors</h3>
+                    <p>Enter the battlefield and test your skills.</p>
+                    <a href="https://poki.com/" target="_blank"
+                       rel="noopener noreferrer" class="game-btn">Play Games ↗</a>
+                </div>
+            </article>
+
+            <article class="game-card">
+                <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=900&q=85"
+                     alt="Colorful gaming environment">
+                <div class="game-info">
+                    <span class="category">ADVENTURE</span>
+                    <h3>Pixel Adventure</h3>
+                    <p>Explore amazing worlds and discover secrets.</p>
+                    <a href="https://www.crazygames.com/" target="_blank"
+                       rel="noopener noreferrer" class="game-btn">Play Games ↗</a>
+                </div>
+            </article>
+
+            <article class="game-card">
+                <img src="https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?auto=format&fit=crop&w=900&q=85"
+                     alt="Gaming controller">
+                <div class="game-info">
+                    <span class="category">RACING</span>
+                    <h3>Speed Legends</h3>
+                    <p>Race against time and chase victory.</p>
+                    <a href="https://poki.com/" target="_blank"
+                       rel="noopener noreferrer" class="game-btn">Play Games ↗</a>
+                </div>
+            </article>
+
+            <article class="game-card">
+                <img src="https://images.unsplash.com/photo-1547394765-185e1e68f34e?auto=format&fit=crop&w=900&q=85"
+                     alt="Gaming keyboard">
+                <div class="game-info">
+                    <span class="category">STRATEGY</span>
+                    <h3>Battle Tactics</h3>
+                    <p>Plan your moves and outsmart your rivals.</p>
+                    <a href="https://www.crazygames.com/" target="_blank"
+                       rel="noopener noreferrer" class="game-btn">Play Games ↗</a>
+                </div>
+            </article>
+
+            <article class="game-card">
+                <img src="https://images.unsplash.com/photo-1603481546238-487240415921?auto=format&fit=crop&w=900&q=85"
+                     alt="Gaming equipment">
+                <div class="game-info">
+                    <span class="category">ARCADE</span>
+                    <h3>Neon Arcade</h3>
+                    <p>Enjoy colorful challenges and classic fun.</p>
+                    <a href="https://poki.com/" target="_blank"
+                       rel="noopener noreferrer" class="game-btn">Play Games ↗</a>
+                </div>
+            </article>
+
+            <article class="game-card">
+                <img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=900&q=85"
+                     alt="Gaming monitor">
+                <div class="game-info">
+                    <span class="category">SIMULATION</span>
+                    <h3>Virtual Universe</h3>
+                    <p>Build, create, and explore your own world.</p>
+                    <a href="https://www.crazygames.com/" target="_blank"
+                       rel="noopener noreferrer" class="game-btn">Play Games ↗</a>
+                </div>
+            </article>
+
+        </div>
+        <p id="noResults" hidden>No games found. Try another search!</p>
+    </section>
+
+    <!-- Trending Section -->
+    <section class="trending" id="trending">
+        <div class="trending-content">
+            <p class="tag">DON'T MISS OUT</p>
+            <h2>Discover What's <span>Trending</span></h2>
+            <p>
+                Find your next favorite game, try something new,
+                and explore free browser gaming platforms.
+            </p>
+            <a href="https://poki.com/" target="_blank"
+               rel="noopener noreferrer" class="main-btn">
+                Discover Games ↗
+            </a>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="section">
+        <div class="section-heading">
+            <div>
+                <p class="tag">FIND YOUR STYLE</p>
+                <h2>Game <span>Categories</span></h2>
+            </div>
+        </div>
+
+        <div class="category-grid">
+            <a href="#games" class="category-box">⚔️ <h3>Action</h3>
+                <p>Fast-paced challenges</p></a>
+            <a href="#games" class="category-box">🏎️ <h3>Racing</h3>
+                <p>Speed and competition</p></a>
+            <a href="#games" class="category-box">🧩 <h3>Puzzle</h3>
+                <p>Test your mind</p></a>
+            <a href="#games" class="category-box">🗺️ <h3>Adventure</h3>
+                <p>Explore new worlds</p></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1592840496694-26d035b52b48?auto=format&fit=crop&w=1000&q=85"
+                 alt="Gaming setup with computer">
+        </div>
+        <div class="about-content">
+            <p class="tag">ABOUT GAMEZONE</p>
+            <h2>One Place.<br><span>Endless Adventures.</span></h2>
+            <p>
+                GameZone Arena is a gaming discovery website for players
+                who want to find exciting browser games and explore
+                different gaming genres.
+            </p>
+            <p>
+                Browse our featured collections, discover gaming platforms,
+                and find something new to play.
+            </p>
+            <a href="#games" class="main-btn">Start Exploring →</a>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter" id="contact">
+        <p class="tag">JOIN THE COMMUNITY</p>
+        <h2>Ready to <span>Level Up?</span></h2>
+        <p>Explore the gaming universe and discover your next adventure.</p>
+        <a href="https://poki.com/" target="_blank"
+           rel="noopener noreferrer" class="main-btn">
+            Start Gaming Now ↗
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#home" class="logo">GAME<span>ZONE</span></a>
+        <p>Your next gaming adventure starts here.</p>
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#games">Games</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <p class="copyright">
+            © <span id="year"></span> GameZone Arena. All rights reserved.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
